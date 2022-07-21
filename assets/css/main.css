@@ -3545,6 +3545,16 @@ input, select, textarea {
     width: 100%;
   }
 
+  #logo {
+    display: none;
+  }
+
+  @media screen and (max-width: 736px) {
+    #logo {
+      display: block;
+    }
+  }
+
 	#footer > .inner a {
 		border-bottom-color: rgba(255, 255, 255, 0.15);
 	}
