@@ -3462,6 +3462,34 @@ input, select, textarea {
 
 		}
 
+  /* Style the navigation menu */
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: right;
+    display: none;
+  }
+
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #navLinks {
+    display: none;
+  }
+
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  @media screen and (max-width: 736px) {
+    .topnav {
+      display: block;
+    }
+  }
+
 /* Wrapper (main) */
 
 	#sidebar + #wrapper {
