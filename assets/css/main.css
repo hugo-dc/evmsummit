@@ -3239,6 +3239,10 @@ input, select, textarea {
 			background-color: #261c3e;
 		}
 
+    .wrapper.style0 {
+			background-color: #ffffff;
+    }
+
 		.wrapper.style1 {
 			background-color: #5e42a6;
 		}
@@ -3535,6 +3539,10 @@ input, select, textarea {
     padding-left: 0px;
     width: 100%;
     background-color: #fff;
+  }
+
+  .mobile-logo img {
+    width: 100%;
   }
 
 	#footer > .inner a {
